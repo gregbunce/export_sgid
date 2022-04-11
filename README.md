@@ -11,3 +11,5 @@ Notes on running this script:
     CADASTRE.LandOwnership
     ECONOMY.EnterpriseZones
 3. run \\import_layers_to_new_fgdb_datasets.py
+4. then upload the file geodatabase backup to google drive here (agrc_public_share>long_terms_share>sgid>sgid_db_archives):
+https://drive.google.com/drive/u/1/folders/1YJHcW9i2dOeNvrN56_87NRHG6RMcEu8-
