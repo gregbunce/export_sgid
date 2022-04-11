@@ -6,12 +6,12 @@ from datetime import datetime
 use python 2.7 (or update table paths to pro)
 
 Overview:
-This script was written as a one-off by Greg Bunce on 09/18/2019. It imports the requested feature classes (or table) that currently reside in the 
+This script was written as a one-off by Greg Bunce on 09/18/2019. It imports the requested feature classes (or tables) that currently reside in the 
 SGID Internal enterprise database and loads them into a staging fgdb. Eventually, these are the layers that will be imported into the new sgid enterprise database.
 
 Notes on running this script:
 1. This code expects that you have already created a destination file geodatabase.
-2. You will need to provide a list of Owner.FeatureClass in a text file that is formated like this (use script in theis repo to create this list)
+2. You will need to provide a list of Owner.FeatureClass in a text file that is formatted like this (use script in this repo to create this list)
     BOUNDARIES.Utah
     CADASTRE.LandOwnership
     ECONOMY.EnterpriseZones
