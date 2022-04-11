@@ -1,0 +1,13 @@
+use this script:
+"C:\Users\gbunce\Documents\Visual Studio 2013\Projects\python\sgid scripts\export_sgid\import_layers_to_new_fgdb_datasets.py"
+
+pass in this list of feature classes (you can create this list in the script below)
+"C:\Users\gbunce\Documents\Visual Studio 2013\Projects\python\sgid scripts\export_sgid\sgid_fc_list.txt"
+
+use this to get list of tables (this list is required in the first script):
+"C:\Users\gbunce\Documents\Visual Studio 2013\Projects\python\sgid scripts\export_sgid\print_sgid_fc_names.py"
+
+then upload the backup to google drive here (agrc_public_share>long_terms_share>sgid>sgid_db_archives):
+https://drive.google.com/drive/u/1/folders/1YJHcW9i2dOeNvrN56_87NRHG6RMcEu8-
+
+
