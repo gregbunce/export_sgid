@@ -17,11 +17,11 @@ Notes on running this script:
     ECONOMY.EnterpriseZones
 3. Remember to set the following variables below to match your machine's configuration: 
     'destination_fgdb'
-    'source_file'
+    'source_layer_txt_file'
 '''
 
 #: set these variables:
-destination_fgdb = "C:\\temp\\SGID_backup_20220411.gdb"
+destination_fgdb = "C:\Temp\sgid_internal_backup_20221018.gdb"
 source_layer_txt_file = open("L:\\agrc\users\\gbunce\share\\scripts_code\\export_sgid\\sgid_fc_list.txt", "r")
 now = datetime.now().strftime('%Y%m%d_%H%M')
 log_file = open("C:\\Temp\\sgid_migration_import_log_" + now + ".txt", 'w')

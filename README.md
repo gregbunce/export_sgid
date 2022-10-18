@@ -10,6 +10,8 @@ Notes on running this script:
     BOUNDARIES.Utah
     CADASTRE.LandOwnership
     ECONOMY.EnterpriseZones
-3. run \\import_layers_to_new_fgdb_datasets.py
-4. then upload the file geodatabase backup to google drive here (agrc_public_share>long_terms_share>sgid>sgid_db_archives):
+3. [optional: remove the ELEVATION Contour datasets from the list - these are huge datasets that don't change often.  also the high res streams?]
+4. run \\import_layers_to_new_fgdb_datasets.py
+5. then upload the file geodatabase backup to google drive here (agrc_public_share>long_terms_share>sgid>sgid_db_archives):
 https://drive.google.com/drive/u/1/folders/1YJHcW9i2dOeNvrN56_87NRHG6RMcEu8-
+...use 7-zip if file is larger than 4GB (https://www.7-zip.org/)
