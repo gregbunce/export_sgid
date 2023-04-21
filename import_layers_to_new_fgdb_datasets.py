@@ -3,7 +3,7 @@ import os
 from datetime import datetime
 
 '''
-use python 2.7 (or update table paths to pro)
+use python3 (arcgis-pro)
 
 Overview:
 This script was written as a one-off by Greg Bunce on 09/18/2019. It imports the requested feature classes (or tables) that currently reside in the 
@@ -21,8 +21,8 @@ Notes on running this script:
 '''
 
 #: set these variables:
-destination_fgdb = "C:\Temp\sgid_internal_backup_20221018.gdb"
-source_layer_txt_file = open("L:\\agrc\users\\gbunce\share\\scripts_code\\export_sgid\\sgid_fc_list.txt", "r")
+destination_fgdb = "C:\\temp\\sgid_internal_backup_2023_04_21.gdb"
+source_layer_txt_file = open("C:\\Users\\gbunce\\Documents\\GitHub\\export_sgid\\sgid_fc_list.txt", "r")
 now = datetime.now().strftime('%Y%m%d_%H%M')
 log_file = open("C:\\Temp\\sgid_migration_import_log_" + now + ".txt", 'w')
 log_file.writelines("This report was generated on " + str(datetime.now()) + "\n")
@@ -39,7 +39,8 @@ for tables in source_list:
     print(owner_name)
     table_name = tables.split(".")[1].strip()
     print(table_name)
-    table_full_path = "Database Connections\internal@SGID@internal.agrc.utah.gov.sde/SGID." + owner_name + "." + table_name
+   # table_full_path = "Database Connections\internal@SGID@internal.agrc.utah.gov.sde/SGID." + owner_name + "." + table_name
+    table_full_path = "C:\\Users\\gbunce\\AppData\\Roaming\\ESRI\\ArcGISPro\\Favorites\\internal@SGID@internal.agrc.utah.gov.sde\\SGID." + owner_name + "." + table_name
 
     #: create a feature dataset (if it doesn't already exist) for each owner type
     if not arcpy.Exists(os.path.join(destination_fgdb, owner_name)):
