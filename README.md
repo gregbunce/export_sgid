@@ -1,4 +1,4 @@
-use python 2.7 (or update table paths to pro)
+use python3 (arcgis-pro)
 
 Overview:
 This script was written as a one-off by Greg Bunce on 09/18/2019. It imports the requested feature classes (or tables) that currently reside in the Internal
