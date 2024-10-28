@@ -1,8 +1,7 @@
 use python3 (arcgis-pro)
 
 Overview:
-This script was written as a one-off by Greg Bunce on 09/18/2019. It imports the requested feature classes (or tables) that currently reside in the Internal
-SGID enterprise database and loads them into a staging esri fgdb. Eventually, these are the layers that will be imported into the new sgid enterprise database.
+These scripts are used to back up UGRC's Internal SGID to a file geodatabase. 
 
 Notes on running this script:
 1. This code expects that you have already created a destination file geodatabase.
