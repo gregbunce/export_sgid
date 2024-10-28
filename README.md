@@ -1,7 +1,7 @@
 use python3 (arcgis-pro)
 
 Overview:
-These scripts are used to back up UGRC's Internal SGID to a file geodatabase. 
+These scripts are used to back up UGRC's Internal SGID SQL database to a file geodatabase. 
 
 Notes on running this script:
 1. This code expects that you have already created a destination file geodatabase.
